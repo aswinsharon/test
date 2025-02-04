@@ -1,12 +1,9 @@
 deployAs:
   - name: assets
     applicationType: assets
-  - name: service
+  - name: processor
     applicationType: service
     endpoint: /payment
-    scripts:
-      postDeploy: npm install && npm run start
-      preUndeploy: npm run cleanup
     # configuration:
     #   standardConfiguration:
     #     - key: CTP_REGION
