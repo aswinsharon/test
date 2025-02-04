@@ -2,7 +2,7 @@
   "name": "connectapp",
   "version": "1.0.0",
   "description": "",
-  "main": "src/processor/index.js",
+  "main": "src/processor/server.js",
   "scripts": {
     "start": "node src/processor/index.js",
     "cleanup": "pkill -f 'node index.js' || true"
