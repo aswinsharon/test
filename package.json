@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/processor/server.js",
   "scripts": {
-    "start": "node src/processor/index.js",
-    "cleanup": "pkill -f 'node index.js' || true"
+    "start": "node src/processor/server.js",
+    "cleanup": "pkill -f 'node server.js' || true"
   },
   "author": "",
   "license": "ISC",
